@@ -1,4 +1,5 @@
-// input utente
+/* input utente to lowercase in caso inserica lettere maiuscole e minuscole
+che non cambierebbero il fatto che sia palindromo o meno*/
 var parola = prompt("inserire parola").toLocaleLowerCase();
 // espressione regolare per il controllo sui caratteri
 var letters = /^[A-Za-z]+$/;
