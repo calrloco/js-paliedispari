@@ -1,5 +1,5 @@
 // input utente
-var parola = prompt('inserire parola');
+var parola = prompt('inserire parola').toLocaleLowerCase();
 // espressione regolare per il controllo sui caratteri
 var letters = /^[A-Za-z]+$/;
 /* funzione per controllo caratteri che con esito positivo
