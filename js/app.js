@@ -3,7 +3,7 @@ var parola = prompt('inserire parola');
 // espressione regolare per il controllo sui caratteri
 var letters = /^[A-Za-z]+$/;
 /* funzione per controllo caratteri che con esito positivo
-richiama e inizia la funzione del palindromo con i valori che ha in imput
+richiama e inizia la funzione del palindromo con i valori che ha
 in caso contrario chiade all'utente di inserire delle lettere e fa refresh del browser
 la funzione non deve ritornare un risultato quindi non ha return*/
 ////quindi inizio richiamando la funzione di controllo carattere/////////////
