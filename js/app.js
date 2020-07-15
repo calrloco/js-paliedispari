@@ -20,6 +20,7 @@ function checkChar(input){
 /* creo una funzione che non deve ritornarmi nulla perche coparera 2 stringhe 
 e stampera solo un alert a video*/
 function checkPalindromo(string){
+    // creo variabile con stringa vuota a cui verra aggiunta la parola al contrario
     var stringeReverse = '';
     // faccio un ciclo for per inserire la parola al contrario all'interno di una variabile 
     for (var i = string.length -1; i>=0 ; i--){
